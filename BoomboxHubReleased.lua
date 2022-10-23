@@ -1,3 +1,17 @@
+--[[
+
+THANK YOU ALL FOR PURCHASING THIS SCRIPT AND SUPPORTING THIS PROJECT.
+
+We have open sourced this project,
+as due to the current state of Roblox Audios and Exploiting in General,
+it is no longer worth maintaining or selling.
+
+The audio decoder will still remain buyers-only,
+but nobody will be able to purchase a whitelist anymore.
+Thus, only the current buyers will have access to the decoder.
+
+]]--
+
 -- Instance Variables
 
 local GetService = game['GetService']
