@@ -18,6 +18,12 @@ local GetService = game['GetService']
 local UGCValidationService = GetService(game, 'UGCValidationService')
 local FetchAssetWithFormat = UGCValidationService['FetchAssetWithFormat']
 
+--[[
+
+In order to create your own theme, go to https://www.roblox.com/library/9841055669/ and install the UI element, edit it in studio, upload the asset,
+then replace the ''rbxassetid://9841055669' on line line below with 'rbxassetid://YOUR_ASSET_ID'
+
+]]--
 local UIV3 = FetchAssetWithFormat(UGCValidationService, 'rbxassetid://9841055669', '')[1]
 Main, WindowControls, ToolTip, MessageBox = UIV3['Main'], UIV3['WindowControls'], UIV3['ToolTip'], UIV3['MessageBox']
 LeftBar, Notification, RightBar, Sectors, CommandLine, ResizeButton, LocalUser, LocalName, Title, CloseButton, MinimizeButton, ToolTipText = Main['LeftBar'], Main['Notification'], Main['RightBar'], Main['Sectors'], Main['CommandLine'], Main['ResizeButton'], Main['LocalUser'], Main['LocalName'], Main['Title'], WindowControls['CloseButton'], WindowControls['MinimizeButton'], ToolTip['Text']
